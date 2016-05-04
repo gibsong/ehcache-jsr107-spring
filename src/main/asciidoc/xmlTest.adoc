@@ -1,0 +1,13 @@
+= Source Code highlighter test
+:source-highlighter: prettify
+:linkcss:
+
+[source,ruby]
+.app.rb
+----
+require 'sinatra'
+
+get '/hi' do
+  "Hello World!"
+end
+----
