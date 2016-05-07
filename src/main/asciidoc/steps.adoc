@@ -97,7 +97,7 @@ IMPORTANT: The Ehcache 3 jar must be on the classpath!  Remove all existing cach
 ----
 +
 NOTE: XML Configuration Documentation: http://www.ehcache.org/documentation/3.0/xml.html
-. Create a cache by implementing the JCacheManagerCustomizer.customzie(CacheManager cacheManagegr) method, which will be invoked before the CacheManager is used.
+. Create a cache by implementing the JCacheManagerCustomizer.customize(CacheManager cacheManager) method, which will be invoked before the CacheManager is used.
 +
 ....
   @Component
